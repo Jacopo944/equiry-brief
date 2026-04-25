@@ -1,0 +1,19 @@
+[project]
+name = "EquityBrief"
+version = "0.1.0"
+description = "An AI tool that reviews news articles to provide a quick summary of a stock's overall mood and the key factors driving its price."
+requires-python = ">=3.10"
+
+dependencies = [
+    "python-dotenv",
+    "requests",
+    "openai",
+    "googlenewsdecoder",
+    "ruff",
+    "yfinance",
+    "python-telegram-bot",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
